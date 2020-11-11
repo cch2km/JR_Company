@@ -1,0 +1,180 @@
+@charset "Shift_JIS";
+
+
+/*----------------------------------------------
+common
+-----------------------------------------------*/
+
+body{
+	margin: 0px;
+	padding:0px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	 float: right;
+}
+
+.textLeft {
+	text-align: left;
+}
+
+.clear {
+	clear:	 both;
+}
+
+.boldStyle {
+	font-weight: bold;
+}
+
+/* clearfix */  
+.clearfix:after {  
+	visibility: hidden;  
+	display: block;  
+	font-size: 0;  
+	content: " ";  
+	clear: both;  
+	height: 0;  
+}  
+* html .clearfix             { zoom: 1; } /* IE6 */  
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */  
+
+.paR2 { padding-right: 2px; }
+
+/*----------------------------------------------
+contents
+-----------------------------------------------*/
+
+#mainContents {
+	width: 750px;
+	font-family: "‚l‚r ‚oƒSƒVƒbƒN", Osaka;
+	font-size: 12px;
+	color: #333333;
+	letter-spacing: 1px;
+	line-height: 17px;
+}
+
+#explanationBox {
+	text-align: left;
+	margin: 20px 0 25px;
+}
+
+#explanationBox #textBox {
+	background-color: #FEF0E2;
+	padding: 5px;
+	border: 1px solid #FCC28B;
+}
+
+#explanationBox #photoBox {
+	padding: 20px 0px 0px 0px;
+}
+
+#explanationBox #photoBox ul {
+	padding: 0px;
+	margin: 0px;
+	line-height: 0px;
+}
+
+#explanationBox #photoBox li {
+	list-style: none;
+	float: left;
+}
+
+.contentsBox1 {
+	margin-top: 30px;
+}
+
+div#titleStyle {
+	padding-top: 2px;
+	font-size: 12px;
+	font-weight: bold;
+	border: 1px solid #FF0000; 
+	background: #ffdddd; 
+	text-align: left; 
+	margin-bottom: 25px;
+}
+
+.headline {
+	margin: 0px 0px 5px 2px;
+}
+
+.routeBox {
+	width:690px; 
+	margin: 10px 0;
+}
+
+.contentsBox2 {
+	margin-top: 20px;
+}
+
+.listbox {
+	padding-top: 0px;
+}
+
+.contentsBox2 ul {
+	margin-top: 10px;
+}
+
+#tableStyle td {
+	background-color: #FFFFFF;
+	text-align: left;
+}
+
+
+/*----------------------------------------------
+goTop
+-----------------------------------------------*/
+
+.goTop {
+	color:#333333;
+	text-decoration:none;
+}
+
+.goTop a:hover{
+	color: #CC0000;
+}
+ 
+ 
+/*----------------------------------------------
+Pdf-btn
+-----------------------------------------------*/
+
+div#BoxLeft {
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 174px;
+	vertical-align: bottom;
+}
+
+div#BoxRight {
+	float: right;
+	margin: 0;
+	padding: 0;
+	width: 174px;
+	vertical-align: bottom;
+}
+
+img.PdfBtn {
+	margin-bottom: 5px;
+}
+ 
+img.lowerBtn {
+	margin: 3px 0 0 0;
+}
+
+/*IE6*/
+* html img.lowerBtn {
+	margin: 1px 0 0 0;
+}
+
+/*FireFox*/
+img.lowerBtn, x:-moz-broken {
+	margin: 0px;
+}
+ 
+
+
